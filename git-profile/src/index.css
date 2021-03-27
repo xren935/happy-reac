@@ -1,17 +1,32 @@
-.github-profile {
-	margin: 1rem;
+body {
+  background-color: #edffec;
 }
 
-.img {
+button {
+  background-color: #caf7e3;
+}
+.github-profile {
+	margin: 1.5rem;
+  margin-left: 20vw;
+  margin-right: 20vw;
+  background-color: #caf7e3;
+  width: auto;
+}
+
+img {
   width: 75px;
+  vertical-align: middle;
 }
 
 .info {
   display: inline-block;
   margin-left: 12px;
+  margin-top: 0 !important;
+  text-align: center;
+  margin-top: -30px !important;
 }
 
-.name {
+.info .name {
   font-size: 1.25rem;
   font-weight: bold;
 }

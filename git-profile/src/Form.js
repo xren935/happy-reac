@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import axios from 'axios';
+import './index.css';
 
 class Form extends React.Component {
 	state = { userName: '' };
@@ -16,7 +17,7 @@ class Form extends React.Component {
           type="text" 
           value={this.state.userName}
           onChange={event => this.setState({ userName: event.target.value })}
-          placeholder="GitHub username" 
+          placeholder="GitHub Username" 
           required 
         />
         <button>Add card</button>

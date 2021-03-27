@@ -1,10 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
-import Card from './Card';
+import MyCard from './MyCard';
 import CardList from './CardList';
 import Form from './Form';
 import React, { Component } from 'react';
-
+import './index.css';
 
 class App extends React.Component {
   state = {

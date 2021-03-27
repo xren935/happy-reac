@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
+import './index.css';
+import { Card } from 'react-bootstrap';
 
-class Card extends React.Component {
+class MyCard extends React.Component {
 	render() {
   	const profile = this.props;
   	return (
@@ -15,4 +17,4 @@ class Card extends React.Component {
   }
 }
 
-export default Card; 
+export default MyCard; 
